@@ -1,0 +1,7 @@
+{
+  "name": "tableau-extensions-tutorial-part-two",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/dangirent/tableau-extensions-tutorial-part-two",
+  "license": "MIT"
+}
