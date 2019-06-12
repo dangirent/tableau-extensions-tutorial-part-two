@@ -4,8 +4,8 @@
    $(document).ready(function () {
       // Initialises Tableau Data Extension
       tableau.extensions.initializeAsync().then(function () {
-      // Once we initialize we call teh drawChartJS function.
-      drawChartJS();
+         // Once we initialize we call teh drawChartJS function.
+         drawChartJS();
    }, function () { console.log('Error while Initializing: ' + err.toString()); });
    });
  
@@ -24,6 +24,7 @@
          var labels = [];
          var data = [];
           
+         console.log('Test');
          // We get our summary data:
          var worksheetData = sumdata.data;
          // We loop through our summary data and hardcode which columns goes into Label
