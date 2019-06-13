@@ -24,7 +24,6 @@
          var labels = [];
          var data = [];
           
-         console.log('Test');
          // We get our summary data:
          var worksheetData = sumdata.data;
          // We loop through our summary data and hardcode which columns goes into Label
